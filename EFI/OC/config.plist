@@ -178,11 +178,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>AQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x6,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -192,11 +187,21 @@
 				<key>device_type</key>
 				<string>AirPort Extreme</string>
 				<key>model</key>
-				<string>DW1820 (BCM4350) 802.11ac Wireless</string>
+				<string>BCM4350 802.11ac Wireless Network Adapter</string>
 				<key>name</key>
 				<string>Airport</string>
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>shikigva</key>
+				<integer>128</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x7,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1800,7 +1805,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>alcid=2 brcmfx-driver=1</string>
+				<string>npci=0x2000 alcid=2 brcmfx-driver=2 brcmfx-country=ID</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1869,7 +1874,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02653600CDJG361F</string>
+			<string>C02910501QXJG368C</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
@@ -1881,9 +1886,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T1FZ0HX87</string>
+			<string>C02YD0CHHX87</string>
 			<key>SystemUUID</key>
-			<string>CD8D0AB6-5D5F-45A6-8563-5177C90C2C84</string>
+			<string>7CFE3F67-1F22-4BA7-A852-33E4BBFE6C0F</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
